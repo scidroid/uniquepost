@@ -15,7 +15,7 @@
 
 ## About The Project
 
-![UniquePost](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/034/345/datas/gallery.jpg)
+![UniquePost](https://github.com/scidroid/uniquepost/raw/main/frontend/public/screenshot.png)
 
 Every day we use different social networks, Instagram, Twitter and even less known ones like Quora. We are used to consume content all day long, we have computers, phones and even watches, but a lot of that content is re-uploaded, people uploading their lives to instagram with pictures from the internet, re-uploading memes, even taking pictures, editing them a bit and posting them as their own.
 

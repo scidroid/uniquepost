@@ -44,7 +44,7 @@ const Home = () => {
         <Image
           variant={text}
           cclassName="z-40 absolute top-0 rxl"
-          src="/home.jpg"
+          src="https://source.unsplash.com/random/600x600/?woman"
           className="w-52 h-52 rxl object-cover"
         />
       </div>
