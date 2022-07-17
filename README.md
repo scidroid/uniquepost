@@ -17,6 +17,10 @@
 
 ![UniquePost](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/002/034/345/datas/gallery.jpg)
 
+Every day we use different social networks, Instagram, Twitter and even less known ones like Quora. We are used to consume content all day long, we have computers, phones and even watches, but a lot of that content is re-uploaded, people uploading their lives to instagram with pictures from the internet, re-uploading memes, even taking pictures, editing them a bit and posting them as their own.
+
+UniquePosts uses blockchain and other technologies such as image recognition to make a social network where the content is original by design, with all the features of a traditional social network allowing you to take photos, edit them and publish them as NFTs. It also prevents your content from being plagiarized or re-uploaded.
+
 <p align="right"><a href="#top">Back to top 🔼</a></p>
 
 ## Getting Started
