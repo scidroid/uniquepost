@@ -1,0 +1,21 @@
+{
+  "name": "uniquepost",
+  "version": "1.0.0",
+  "description": "The ackend api for UniquePost",
+  "main": "main.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.0.0",
+    "@hashgraph/sdk": "^2.16.6",
+    "deta": "^1.1.0",
+    "dotenv": "^16.0.1",
+    "fastify": "^4.2.1",
+    "fastify-file-upload": "^4.0.0",
+    "nodemon": "^2.0.19"
+  }
+}

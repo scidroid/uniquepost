@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rxl {
+  border-radius: 0.75rem !important;
+}
+
+.image-container {
+  display: inline-block;
+  position: relative;
+  line-height: 0;
+  background: #ffffff;
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  top: 0;
+  left: 0;
+}
+
+.vert {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.circular::after {
+  border-radius: 100% !important;
+}
+
+.normal::after {
+  mix-blend-mode: none;
+  background: #faaa00;
+  opacity: 0.13;
+}
+
+.normal > img {
+  -webkit-filter: brightness(100%) contrast(100%) grayscale(0%) hue-rotate(0deg)
+    invert(0%) opacity(100%) saturate(100%) sepia(0%);
+  filter: brightness(100%) contrast(100%) grayscale(0%) hue-rotate(0deg)
+    invert(0%) opacity(100%) saturate(100%) sepia(0%);
+  mix-blend-mode: none;
+}
+
+.icy-water::after {
+  mix-blend-mode: multiply;
+  background: #00e1fa;
+  opacity: 0.13;
+}
+
+.icy-water > img {
+  -webkit-filter: brightness(104%) contrast(104%) grayscale(0%) hue-rotate(0deg)
+    invert(0%) opacity(100%) saturate(122%) sepia(0%);
+  filter: brightness(104%) contrast(104%) grayscale(0%) hue-rotate(0deg)
+    invert(0%) opacity(100%) saturate(122%) sepia(0%);
+  mix-blend-mode: none;
+}
+
+.summer-heat::after {
+  mix-blend-mode: overlay;
+  background: #fae900;
+  opacity: 0.23;
+}
+.summer-heat > img {
+  -webkit-filter: brightness(103%) contrast(114%) grayscale(0%) hue-rotate(0deg)
+    invert(0%) opacity(100%) saturate(122%) sepia(0%);
+  filter: brightness(103%) contrast(114%) grayscale(0%) hue-rotate(0deg)
+    invert(0%) opacity(100%) saturate(122%) sepia(0%);
+  mix-blend-mode: none;
+}
+
+.fever::after {
+  mix-blend-mode: multiply;
+  background: #ff0000;
+  opacity: 0.13;
+}
+.fever > img {
+  -webkit-filter: brightness(100%) contrast(97%) grayscale(0%)
+    hue-rotate(330deg) invert(0%) opacity(100%) saturate(111%) sepia(0%);
+  filter: brightness(100%) contrast(97%) grayscale(0%) hue-rotate(330deg)
+    invert(0%) opacity(100%) saturate(111%) sepia(0%);
+  mix-blend-mode: none;
+}
+
+.strawberry::after {
+  mix-blend-mode: screen;
+  background: #fa00cc;
+  opacity: 0.5;
+}
+
+.strawberry > img {
+  -webkit-filter: brightness(100%) contrast(100%) grayscale(0%) hue-rotate(0deg)
+    invert(0%) opacity(100%) saturate(100%) sepia(0%);
+  filter: brightness(100%) contrast(100%) grayscale(0%) hue-rotate(0deg)
+    invert(0%) opacity(100%) saturate(100%) sepia(0%);
+  mix-blend-mode: none;
+}
+
+.yellow-haze::after {
+  mix-blend-mode: multiply;
+  background: #ffff00;
+  opacity: 1;
+}
+
+.yellow-haze > img {
+  -webkit-filter: brightness(106%) contrast(100%) grayscale(100%)
+    hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
+  filter: brightness(106%) contrast(100%) grayscale(100%) hue-rotate(0deg)
+    invert(0%) opacity(100%) saturate(100%) sepia(0%);
+  mix-blend-mode: none;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
